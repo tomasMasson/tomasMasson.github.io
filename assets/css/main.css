@@ -1306,7 +1306,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/genomics.png"), url("images/bg.png");
+		background-image: url("images/thumbnail.png"), url("images/bg.png");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, 100% 100%;
 		background-attachment: fixed;
@@ -1327,7 +1327,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #777777;
+		color: #000000;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
@@ -1533,7 +1533,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: #000;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2015,7 +2015,7 @@ input, select, textarea {
 						position: absolute;
 						top: 0;
 						left: 0;
-						background: url("images/genomics.png");
+						background: url("images/thumbnail.png");
 						width: 100%;
 						height: 100%;
 						z-index: 1;
